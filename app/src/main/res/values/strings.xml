@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Download Image Application</string>
+    <string name="error_mainactivity_no_download">No se pudo descargar la imagen.</string>
 </resources>
