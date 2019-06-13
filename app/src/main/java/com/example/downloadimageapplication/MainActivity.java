@@ -9,7 +9,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private DownloadImage di;
-    private static final String URL_IMAGEN = "https://en.wikipedia.org/wiki/Lion#/media/File:Lion_waiting_in_Namibia.jpg";
+    // Image from https://all-free-download.com/free-photos/download/male-lion_189768.html
+    private static final String URL_IMAGEN = "https://images.all-free-download.com/images/graphiclarge/male_lion_189768.jpg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
