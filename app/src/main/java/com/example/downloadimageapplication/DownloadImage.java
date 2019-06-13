@@ -36,8 +36,10 @@ public class DownloadImage extends AsyncTask<String, Void, Bitmap> {
                 in = httpConn.getInputStream();
                 bitmap = BitmapFactory.decodeStream(in);
                 in.close();
+                Log.d(getClass().getCanonicalName(), "Descarga terminada, correcta.");
+            } else {
+                Log.d(getClass().getCanonicalName(), "Descarga terminada con código de error: '" + respuesta + "'.");
             }
-            Log.d(getClass().getCanonicalName(), "Descarga terminada.");
 
         } catch (Exception e) {
             // Auto-generated catch block
